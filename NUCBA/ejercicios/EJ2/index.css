@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Caveat";
+    src: url(./Caveat/Caveat-VariableFont_wght.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 2px 0px 5px black;
+}
+
+#logo{
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+    
+}
+#logo img{
+  height: 100%;
+  width: auto;
+  
+}
+
+#lista{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    margin-right: 0px;
+}
+
+nav div ul{
+    margin-right: 40px;
+}
+
+nav div ul li{
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+    decoration: none;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
